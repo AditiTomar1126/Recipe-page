@@ -1,0 +1,133 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+p,li,span{
+    font-size: 14px;
+}
+ .cover{
+    background-color: #e5c7b5d4;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+} 
+.body{
+    display: cover;
+    background-color: #fff;
+    height: 1720px;
+    margin: 10vw 25vw 10vw 25vw;
+border-radius: 1.8vw;
+    position: relative;
+}
+.main{
+    border-radius: 0.8px;
+    position: absolute;
+    top: 3%;
+    left: 5%;
+    height: 94%;
+    width: 90%;
+    background-color: #fff;
+   }
+
+.main img{
+    width: 100%;
+    border-radius: 1vw;
+}
+.main h1 {
+    padding: 20px;
+}
+.prep{
+    margin: 3vw 0;
+border-radius: 10px;
+padding: 2.5vw;
+    background-color: rgb(249, 235, 243);
+}
+.prep ul {
+    line-height: 2.5vw;
+    padding-left: 30px;
+}
+.prep h3{
+    color: rgb(87, 14, 82);
+    padding-bottom: 10px;
+}
+.prep ul li{
+    padding-left: 2vw;
+}
+.ing ul {
+    line-height: 2.5vw;
+    padding-left: 3vw;
+}
+.ing h2{
+    color: rgb(125, 32, 32);
+    padding-bottom: 1vw;
+}
+.ing ul li{
+    padding-left: 2vw;
+}
+hr{
+    margin: 2.5vw;
+}.ins ol {
+    line-height: 2.5vw;
+    padding-left: 3vw;
+}
+.ins h2{
+    color: rgb(125, 32, 32);
+    padding-bottom: 10px;
+}
+.ins ol li{
+    padding-left: 2vw;
+}
+
+
+.nut b{
+position: absolute;
+left: 50%;
+color: rgb(125, 32, 32);
+}
+.nut h2{
+    color: rgb(125, 32, 32);
+    padding-bottom: 10px;
+}
+.nut p{
+    padding: 15px;
+}
+.nut span{
+    margin-left: 30px;
+}
+.nut hr{
+    margin: 8px;
+}
+@media (max-width:600px) {
+
+    .cover{
+        background-color: #fff;
+    }
+    .main{
+        background-color: #fff;
+       
+    }
+    .main img{
+        border-radius: 0px;
+    }
+    
+    .prep{
+        border-radius: 0px;
+
+    }
+    .ing ul{
+        line-height: 25px;
+    }
+    .ins ol{
+        line-height: 25px;
+    }
+    .prep ul{
+        line-height: 25px;
+    }
+}
+@media (min-width:601px) and (max-width:900px ) {
+    .body{
+        height: 1500px;
+    }
+}
